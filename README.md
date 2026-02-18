@@ -19,11 +19,7 @@ netvibe-cli setup
 
 You will be prompted to enter:
 
--   **Email**
-    
--   **Username**
-    
--   **Password**
+-   **Vibepass**
     
 
 This configures your NetVibe CLI environment.
