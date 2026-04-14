@@ -1,9 +1,8 @@
 class NetvibeCli < Formula
   desc "NetVibe Answerer CLI"
-  homepage "https://github.com/SNL-UCSB/netvibe.git"
-  version "3.0.0"
+  homepage "https://github.com/SNL-UCSB/netvibe"
+  version "3.3.2"
   url "https://github.com/Manni-MinM/homebrew-netvibe.git"
-
 
   def install
     arch = if Hardware::CPU.intel?
@@ -26,6 +25,6 @@ class NetvibeCli < Formula
   end
 
   test do
-    system "\#{bin}/netvibe-cli", "--help"
+    system "#{bin}/netvibe-cli", "--help"
   end
 end
