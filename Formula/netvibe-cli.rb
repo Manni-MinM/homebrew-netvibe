@@ -1,7 +1,7 @@
 class NetvibeCli < Formula
   desc "NetVibe Answerer CLI"
   homepage "https://github.com/SNL-UCSB/netvibe"
-  version "3.10.0"
+  version "3.11.0"
   url "https://github.com/Manni-MinM/homebrew-netvibe.git"
 
   def install
